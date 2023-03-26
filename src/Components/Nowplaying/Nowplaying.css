@@ -1,0 +1,28 @@
+/* .upcomingdata {
+    display: flex;
+    overflow-x: scroll;
+     overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  .upcomingdata::-webkit-scrollbar {
+    display: none;
+  }
+  .upcomingdata1 {
+    width: 150px;
+    height: 200px;
+    padding: 6px;
+  }
+  .upcomingdata1:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+  }
+  .heading {
+    margin-left: 10px;
+    font-weight: 500;
+    color: white;
+  }
+  .maindiv {
+    background-color: black;
+    padding-bottom: 20px;
+  }
+   */

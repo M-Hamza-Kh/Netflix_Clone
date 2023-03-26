@@ -1,0 +1,38 @@
+.div {
+  background-color: rgb(27, 26, 26);
+  height: 600px;
+
+  display: flex;
+  object-fit: contain;
+  position: relative;
+}
+.image {
+  width: 100%;
+}
+.childdiv {
+  position: absolute;
+  margin-top: 200px;
+  color: #ffff;
+  font-size: 25px;
+  font-weight: 400;
+  margin-left: 5px;
+}
+.childheading {
+  font-size: 50px;
+  font-weight: 900;
+  margin-left: 5px;
+}
+@media only screen and (max-width: 700px) {
+  .childheading2 {
+    display: none;
+  }
+}
+@media only screen and (max-width: 394px) {
+  .childdiv {
+    margin-top: 50px;
+    margin-left: 0px;
+  }
+  .image {
+    width: 100%;
+  }
+}
