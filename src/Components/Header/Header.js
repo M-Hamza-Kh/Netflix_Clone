@@ -4,7 +4,6 @@ import img2 from "../../Components/green.png";
 import "./Header.css";
 import { BsSearch } from "react-icons/bs";
 import { Link } from "react-router-dom";
-// import { click } from "@testing-library/user-event/dist/click";
 const Header = () => {
   const [state, setstate] = useState(false);
   const [show, setshow] = useState(true);
